@@ -5,9 +5,9 @@ import Header from './header'
 
 export default function Layout() {
   return (
-    <div className='flex items-center'>
+    <div className='flex '>
         <SideBar />
-        <div>
+        <div className='flex-1'>
           <Header />
           <Outlet />
         </div>
